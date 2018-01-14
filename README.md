@@ -1,4 +1,4 @@
-# Jan2018Scrapy
+
 http://www.tovantran.com/blog/?p=3082
 scrapy crawl quotes 
 2018-01-13 19:28:14 [scrapy] INFO: Scrapy 1.0.7 started (bot: tutorial)
