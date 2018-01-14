@@ -1,7 +1,7 @@
 http://www.tovantran.com/blog/?p=3082
 <pre><code>
 
-scrapy crawl quotes 
+scrapy crawl craig 
 2018-01-13 19:28:14 [scrapy] INFO: Scrapy 1.0.7 started (bot: tutorial)
 2018-01-13 19:28:14 [scrapy] INFO: Optional features available: ssl, http11, boto
 2018-01-13 19:28:14 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tutorial.spiders', 'SPIDER_MODULES': ['tutorial.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'tutorial'}
@@ -39,5 +39,18 @@ scrapy crawl quotes
  'scheduler/enqueued/memory': 2,
  'start_time': datetime.datetime(2018, 1, 14, 0, 28, 14, 161198)}
 2018-01-13 19:28:14 [scrapy] INFO: Spider closed (finished
+
+scrapy crawl craig -o items.csv -t csv
+more items.csv
+link,title
+https://sfbay.craigslist.org/sfc/npo/d/on-call-residential-counselor/6458923241.html,On-Call Residential Counselor - S
+helter Program
+https://sfbay.craigslist.org/sfc/npo/d/intake-specialist-bilingual/6458922363.html,Intake Specialist (Bilingual Spanis
+h Preferred)
+https://sfbay.craigslist.org/sfc/npo/d/shift-coordinator-swing-shift/6458921112.html,Shift Coordinator - Swing Shift
+https://sfbay.craigslist.org/sfc/npo/d/housing-navigation-specialist/6458918546.html,Housing Navigation Specialist
+https://sfbay.craigslist.org/sfc/npo/d/housing-stability-specialist/6458917961.html,Housing Stability Specialist - Hea
+ding Home
+
 
 </code>
