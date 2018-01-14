@@ -1,7 +1,7 @@
-http://www.tovantran.com/blog/?p=3082
-<pre><code>
+More details at http://www.tovantran.com/blog/?p=3082
 
 scrapy crawl craig 
+<pre><code>
 2018-01-13 19:28:14 [scrapy] INFO: Scrapy 1.0.7 started (bot: tutorial)
 2018-01-13 19:28:14 [scrapy] INFO: Optional features available: ssl, http11, boto
 2018-01-13 19:28:14 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tutorial.spiders', 'SPIDER_MODULES': ['tutorial.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'tutorial'}
@@ -39,8 +39,10 @@ scrapy crawl craig
  'scheduler/enqueued/memory': 2,
  'start_time': datetime.datetime(2018, 1, 14, 0, 28, 14, 161198)}
 2018-01-13 19:28:14 [scrapy] INFO: Spider closed (finished
+</code>
 
-scrapy crawl craig -o items.csv -t csv
+<b>scrapy crawl craig -o items.csv -t csv</b>
+<code>
 more items.csv
 link,title
 https://sfbay.craigslist.org/sfc/npo/d/on-call-residential-counselor/6458923241.html,On-Call Residential Counselor - S
